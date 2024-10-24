@@ -1,36 +1,16 @@
 {
-  "name": "zet",
-  "version": "0.1.0",
-  "private": true,
+  "name": "langchain-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
-    "@prisma/client": "^5.19.1",
-    "@radix-ui/react-accordion": "^1.2.0",
-    "@radix-ui/react-icons": "^1.3.0",
-    "clsx": "^2.1.1",
-    "mongodb": "^6.9.0",
-    "next": "^14.2.13",
-    "next-pwa": "^5.6.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7"
-  },
-  "devDependencies": {
-    "@types/node": "^22.6.1",
-    "@types/react": "^18.3.8",
-    "@types/react-dom": "^18.3.0",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9.11.1",
-    "eslint-config-next": "^14.2.13",
-    "postcss": "^8.4.47",
-    "prisma": "^5.19.1",
-    "tailwindcss": "^3.4.13",
-    "typescript": "^5.6.2"
+    "@langchain/core": "^0.3.13",
+    "langchain": "^0.3.3"
   }
 }
